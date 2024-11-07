@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>company portfolio</title>
+</head>
+<body>
+    <header>
+
+        <a href="#" class="logo">Welcome<span>!!</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skills">Our Skills</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#contact">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="content">
+                <h1>
+                    <i>Everbloom Dreams</i>
+                </h1>
+                <span>Crafted with elegance, Delivered with love</span>
+                <p>"Where every bloom tells a story. Bringing nature's beauty to your doorstep!"</p>
+                <a href="#" class="btn">Visit for Order!</a>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="content">
+            <h3>About Us</h3>
+           <p>
+            <span>Everbloom Dreams</span> is a premier floral design company dedicated to creating stunning arrangements that celebrate life's special moments. Founded in [Year], we blend artistry with nature to provide unique floral experiences for every occasion. Our passion for flowers and commitment to quality have made us a trusted name in the community.
+           </p>
+
+           <h3>Our Mission </h3>
+           <p>At <span>Everbloom Dreams</span> our mission is to inspire joy and connection through the beauty of flowers. We believe that each arrangement should reflect the personality and emotions of our clients, transforming spaces and enhancing experiences.</p>
+
+            </div>
+        </section>
+
+        <section class="services" id="services">
+            <div class="content">
+                <h3>Our Services</h3>
+                <div class="service-container">
+                    <div class="service">
+                        <img src="image 1.avif" alt="Custom Floral Arrangements">
+                        <h2>Custom Floral Arrangements</h2>
+                        <p>Tailored designs for weddings, events, and personal celebrations.</p>
+                    </div>
+                    <div class="service">
+                        <img src="image 2.jpg" alt="Flower Subscription Services">
+                        <h2>Subscription Services</h2>
+                        <p>Regular delivery of fresh blooms to brighten your space.</p>
+                    </div>
+                    <div class="service">
+                        <img src="image 3.jfif" alt="Event Floral Design">
+                        <h2>Event Floral Design</h2>
+                        <p>Comprehensive floral styling for events of all sizes.</p>
+                    </div>
+                    <div class="service">
+                        <img src="image 4.jfif" alt="Workshops and Classes">
+                        <h2>Workshops and Classes</h2>
+                        <p>Engaging sessions to learn the art of floral design.</p>
+                    </div>
+                    <div class="service">
+                        <img src="image 5.jfif" alt="Branding Services">
+                        <h2>Branding Services</h2>
+                        <p>Creating unique brand identities with floral elements for your business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  class="skills" id="skills">
+            <h3>Our Skills Progress</h3>
+            <div class="container">
+                <div class="progress" style="--i:94;--clr: #43f94a;">
+                    <h2>94<span>%</span></h2>
+                    <h4>Balance</h4>
+                </div>
+    
+                <div class="progress" style="--i:88;--clr: #2ccde9;">
+                    <h2>88<span>%</span></h2>
+                    <h4>Contrast</h4>
+                </div>
+    
+                <div class="progress less" style="--i:35;--clr: #fb297b;">
+                    <h2>35<span>%</span></h2>
+                    <h4>Artificiality</h4>
+                </div>
+    
+                <div class="progress" style="--i:98;--clr: #ffe047;">
+                    <h2>98<span>%</span></h2>
+                    <h4>Creativity</h4>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews" id="reviews">
+            <h3> Review Form </h3>
+            <div class="container">
+            <form action="https://www.example.com/review.php" method="get">
+                <fieldset>
+                    <legend>
+                        Input Your Details:
+                    </legend>
+        
+                        <label>
+                            Your Name!
+                            <input type="text" name="name" size="15" maxlength="30"/>
+                        </label>
+                        </label>
+                            Email!
+                            <input type="email" name="email" size="15" maxlength="30"/>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Give Your Reviews:
+                    </legend>
+                    <p>
+                        Would you like to interact with us again!
+                        <label>
+                            Yes
+                            <input type="radio" name="feedback" value="yes"/>
+                            No
+                            <input type="radio" name="feedback" value="no"/>
+                            Maybe
+                            <input type="radio" name="feedback" value="maybe"/>
+                        </label>
+                       
+                    </p>
+        
+                    <p>
+                        <label for="message">
+                            Any Message For Us!
+                            <textarea id="message">
+                            </textarea>
+                        </label>
+                    </p>
+        
+                        <label>
+                        <input type="submit" value="Submit"/>
+                        </label>
+        
+        <hr/>
+                    <p style="text-align: center;">
+                        <b>!Thankyou For Your Feedback!</b>
+                    </p>
+                </fieldset>
+            </form>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h3>Contact Us</h3>
+            <div class="container">
+                <form action="https://www.example.com/contact.php" method="post">
+                    <fieldset>
+                        <legend>Get in Touch:</legend>
+                        
+                        <label>
+                            Your Name:
+                            <input type="text" name="name" required maxlength="30" />
+                        </label>
+                        
+                        <label>
+                            Email:
+                            <input type="email" name="email" required maxlength="50" />
+                        </label>
+        
+                        <label>
+                            Phone Number:
+                            <input type="tel" name="phone" required maxlength="15" />
+                        </label>
+        
+                        <label>
+                            Message:
+                            <textarea name="message" required rows="5"></textarea>
+                        </label>
+                        
+                        <input type="submit" value="Send Message" />
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        
+    </main>
+</body>
+</html>
